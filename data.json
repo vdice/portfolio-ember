@@ -1,0 +1,20 @@
+{ "projects": [{
+    "title": "Lunarleap",
+    "preview": "An app to track monthly goals and be inspired by those of others",
+    "previewImage": "https://github.com/vdice/lunarleap/blob/master/app/assets/images/preview.png",
+    "description": "Lunarleap is an app for users to create monthly challenges, post updates to them, follow other users and explore challenges by category.",
+    "link": "https://github.com/vdice/lunarleap"
+  }, {
+    "title": "Xenia",
+    "preview": "A web app to locate nearby shelters according to resource needed",
+    "previewImage": "https://github.com/vdice/shelter_resources/blob/master/public/img/preview.png",
+    "description": "With Xenia, users can find the nearest shelters that offer needed resources, find the nearest shelters that need resources donated, see resource levels for all shelters in real-time and donate resources to any shelter they choose.",
+    "link": "https://github.com/vdice/shelter_resources"
+  }, {
+    "title": "Pizzeria Japonese",
+    "preview": "A website for a Japanese-area pizzeria",
+    "previewImage": "https://github.com/vdice/epicodus_pizzeria/blob/master/public/img/preview.png",
+    "description": "A website for a Japanese-area pizzeria where a customer can order pizza(s), selecting quantity, toppings and size. They are then presented with the total cost. Customers may toggle between Japanese and English languages and currencies.",
+    "link": "https://github.com/vdice/epicodus_pizzeria"
+  }]
+}

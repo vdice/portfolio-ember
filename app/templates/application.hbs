@@ -1,3 +1,25 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class="container">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        {{#link-to 'index'}}
+          <span class="navbar-brand">Vaughn Dice</span>
+        {{/link-to}}
+      </div>
 
-{{outlet}}
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav nav-list">
+          <li class="active">{{link-to 'Home' 'index'}}</li>
+          <li>{{link-to 'Code' 'code'}}</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {{outlet}}
+</div>
